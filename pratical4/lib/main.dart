@@ -5,6 +5,8 @@ import 'package:pratical4/Screen1.dart';
 import 'package:pratical4/Screen2.dart';
 import 'package:pratical4/Screen3.dart';
 import 'package:pratical4/Screen4.dart';
+import 'package:pratical4/Screen5.dart';
+import 'package:pratical4/Screen6.dart';
 
 
 void main() {
@@ -17,7 +19,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Screen1(
+      home: Screen6(
 
       )
     
