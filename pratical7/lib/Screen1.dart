@@ -9,11 +9,17 @@ class Screen1 extends StatelessWidget {
       appBar: AppBar(
         title: Text("Instagram",style: TextStyle(fontSize: 25,color: Colors.black)),
       actions: [
-        Icon(Icons.favorite), SizedBox(width: 10,
+        Icon(Icons.favorite),
+        SizedBox(
+          width: 5,
         ),
-       Icon (Icons.message)
+        Icon(Icons.message),
+        SizedBox(
+          width: 5,
+        ),
       ],
-      backgroundColor: Colors.white,),
+        
+      ),
       body:
        SingleChildScrollView(scrollDirection: Axis.vertical,
          child: Column(
